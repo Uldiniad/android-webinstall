@@ -1,0 +1,4 @@
+[submodule "fastboot.js"]
+	path = fastboot.js
+	url = git@github.com:Uldiniad/fastboot.js.git
+	branch = gsi

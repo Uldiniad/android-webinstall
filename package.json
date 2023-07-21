@@ -13,7 +13,7 @@
         "@sentry/tracing": "^7.90.0",
         "@sentry/vue": "^7.90.0",
         "@vitejs/plugin-vue": "^4.5.2",
-        "android-fastboot": "^1.0.7",
+        "android-fastboot": "link:fastboot.js",
         "url": "^0.11.3",
         "vite": "^5.0.10",
         "vue": "^3.3.13",

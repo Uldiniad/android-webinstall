@@ -189,7 +189,7 @@ export default {
                     }
 
                     this.latestReleases = this.releaseIndex.latest[
-                        this.$root.$data.product
+                        "gsi"
                     ];
                 }
             },

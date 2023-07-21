@@ -920,13 +920,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zip.js/zip.js@npm:2.2.27":
-  version: 2.2.27
-  resolution: "@zip.js/zip.js@npm:2.2.27"
-  checksum: 794ae5b56957795f894393f546222bfdbabd09f179a8aed585b06e9b764a5101b772d7bd1048cc2d8bcd19530b46f6a6569a4459b3c3d9a97a6b2740267f2012
-  languageName: node
-  linkType: hard
-
 "abbrev@npm:^1.0.0":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -1010,14 +1003,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"android-fastboot@npm:^1.0.7":
-  version: 1.1.3
-  resolution: "android-fastboot@npm:1.1.3"
-  dependencies:
-    "@zip.js/zip.js": "npm:2.2.27"
-  checksum: af41fd43d5c4b7c5ca7ed83a283d644ef90dd166218dc25eb018d2ac6abe648521b86478ab256c28eb4e4d05cc908695209c351d77fca414ec9a79dc1ba4700f
+"android-fastboot@link:fastboot.js::locator=android-webinstall%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "android-fastboot@link:fastboot.js::locator=android-webinstall%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
 "android-webinstall@workspace:.":
   version: 0.0.0-use.local
@@ -1026,7 +1016,7 @@ __metadata:
     "@sentry/tracing": "npm:^7.90.0"
     "@sentry/vue": "npm:^7.90.0"
     "@vitejs/plugin-vue": "npm:^4.5.2"
-    android-fastboot: "npm:^1.0.7"
+    android-fastboot: "link:fastboot.js"
     eslint: "npm:^8.56.0"
     eslint-plugin-vue: "npm:^9.19.2"
     eslint-plugin-vuetify: "npm:^2.1.1"
